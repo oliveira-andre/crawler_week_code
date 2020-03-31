@@ -12,7 +12,9 @@ class App < Sinatra::Base
 
   def load_jobs
     SitesUtil.params.each do |params|
-      return SearchRemoteJobsService.new(params).execute
+      job_details = SearchRemoteJobsService.new(params).execute
+      @jobs.nil? ? @jobs = [job_details] : @jobs << job_details
     end
+    @jobs.flatten!
   end
 end
