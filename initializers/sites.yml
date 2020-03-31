@@ -1,0 +1,9 @@
+sites:
+  names: 'geek_hunter'
+  
+  geek_hunter:
+    link: 'https://www.geekhunter.com.br/vagas?workType=remoto'
+    card_group: '.job'
+    title_search: 'h2 a'
+    amount_search: '.job-salary'
+    name: geek_hunter
