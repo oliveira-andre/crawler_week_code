@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'mechanize'
-gem 'sinatra', '~> 2.0.5'
+gem 'sinatra', '~> 2.2.0'
 
 group :development, :test do
   gem 'byebug'
