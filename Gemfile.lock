@@ -23,7 +23,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
-    mustermann (1.1.1)
+    mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     net-http-digest_auth (1.4.1)
     net-http-persistent (3.1.0)
@@ -34,8 +34,8 @@ GEM
     parallel (1.19.1)
     parser (2.7.0.5)
       ast (~> 2.4.0)
-    rack (2.2.2)
-    rack-protection (2.0.8.1)
+    rack (2.2.4)
+    rack-protection (2.2.3)
       rack
     rainbow (3.0.0)
     rexml (3.2.4)
@@ -61,13 +61,13 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
     ruby-progressbar (1.10.1)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
@@ -82,7 +82,7 @@ DEPENDENCIES
   mechanize
   rspec
   rubocop
-  sinatra (~> 2.0.5)
+  sinatra (~> 2.2.3)
 
 BUNDLED WITH
    2.1.4
